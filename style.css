@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* *,
+::after,
+::before {
+    box-sizing: border-box;
+} */
+
+/* nav start */
+
+a .logo {
+    width: 300px;
+    height: auto;
+}
+
+img.menuIcon {
+    width: 40px;
+}
+
+
+a.nav-link.fontSize {
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #000000;
+}
+
+li.nav-item {
+    padding-left: 25px;
+}
+
+/* nav end  */
+
+
+/* price section start */
+
+section.price {
+    margin-top: 40px;
+}
+
+
+.pri_title h1 {
+    margin-left: 46%;
+    font-family: 'Open Sans';
+    letter-spacing: 2px;
+    font-size: 50px;
+    margin-bottom: 120px;
+    margin-top: 38px;
+}
+
+
+.right_item p {
+    letter-spacing: 2px;
+    opacity: 0.8;
+    font-size: 16px;
+}
+
+section.price2 {
+    padding-top: 110px;
+}
+
+.title1 h2 {
+    text-align: center;
+    font-size: 18px;
+    margin-top: -60px;
+    letter-spacing: 1.5px;
+    color: #e1b571;
+}
+
+.price2 .kppn_list_cont .right_item {
+    display: flex;
+    gap: 30px;
+    min-width: 50%;
+}
+
+.price2 .kppn_list_cont .left_item {
+    min-width: 50%;
+}
+
+.first_section {
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+}
+
+.kppn_list_cont {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+
+.kppn_list_cont .left_item p {
+    text-align: right;
+    margin-right: 40px;
+}
+
+.kppn_list_cont .left_item {
+    min-width: 250px;
+    border-right: 1px solid #333;
+    margin-right: 40px;
+}
+
+.kppn_list {
+    padding-right: 140px;
+}
+
+.price2 .kppn_list_cont .right_item p {
+    min-width: 78px;
+}
+
+.price2 .kppn_list {
+    padding-right: 0px;
+    padding-left: 40px;
+    margin-bottom: 50px;
+}
+
+.price2 .right_item.strong {
+    text-transform: uppercase;
+}
+
+section.content {
+    text-align: center;
+}
+
+.content h1 {
+    font-family: 'Open Sans';
+    font-size: 17px;
+    letter-spacing: 1.5px;
+    color: #e1b571;
+}
+
+.content h2 {
+    font-size: 23px;
+    color: #e1b269;
+    letter-spacing: 1.5px;
+}
+
+.price-content {
+    margin-bottom: 54px;
+    padding-left: 68px;
+}
+
+/* price section end */
+
+
+
+
+/* contact section start  */
+
+.second_section {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contact-title h2 {
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 63px;
+    font-size: 60px;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+.conatct {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.contact-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p.contact-text {
+    font-family: 'Dancing Script';
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.contact-social a img {
+    display: inline-block;
+    width: 25px;
+    margin-left: 15px;
+    margin-top: 22px;
+    margin-bottom: 30px;
+}
+
+.contact-content {
+    font-family: 'Open Sans';
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.contact-last {
+    font-family: 'Open Sans';
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+
+
+/* contact section end  */
+
+
+
+
+
+
+
+@media (max-width: 576px) {
+    a .logo {
+        width: 170px;
+        height: auto;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    a .logo {
+        width: 150px;
+        height: auto;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    a .logo {
+        width: 175px;
+        height: auto;
+    }
+
+    .contact-content {
+        padding-left: 108px;
+    }
+
+    .contact-social {
+        padding-left: 65px;
+    }
+
+    .contact-last {
+        padding-left: 115px;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1400px) {
+
+    a.nav-link.fontSize {
+        font-size: 30px;
+    }
+
+    img.logo {
+        width: 167px;
+        height: auto;
+    }
+
+    
+
+}
