@@ -243,8 +243,13 @@ p.contact-text {
         padding-left: 137px;
     }
 
-    .pri_title h1 {
+    /* .pri_title h1 {
         margin-left: 37%;
+    } */
+
+    .pri_title h1 {
+        margin-left: 47%;
+        font-size: 40px;
     }
 
     .conatct {
