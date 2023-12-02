@@ -84,7 +84,7 @@ section.price2 {
 
 .price2 .kppn_list_cont .right_item {
     display: flex;
-    gap: 30px;
+    gap: 20px;
     min-width: 50%;
 }
 
@@ -257,6 +257,9 @@ p.contact-text {
         width: 150px;
         height: auto;
     }
+    .pri_title h1 {
+        margin-left: 37%;
+    }
 }
 
 @media (min-width: 769px) and (max-width: 992px) {
@@ -287,8 +290,6 @@ p.contact-text {
     img.logo {
         width: 167px;
         height: auto;
-    }
-
-    
+    }    
 
 }
