@@ -250,6 +250,10 @@ p.contact-text {
     .conatct {
         margin-left: 107px;
     }
+
+    a.nav-link.fontSize {
+        font-size: 30px;
+    }
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
@@ -259,6 +263,10 @@ p.contact-text {
     }
     .pri_title h1 {
         margin-left: 37%;
+    }
+
+    a.nav-link.fontSize {
+        font-size: 30px;;
     }
 }
 
@@ -278,6 +286,10 @@ p.contact-text {
 
     .contact-last {
         padding-left: 115px;
+    }
+
+    a.nav-link.fontSize {
+        font-size: 30px;
     }
 }
 
