@@ -228,19 +228,15 @@ p.contact-text {
     }
 
     .kppn_list {
-        padding-left: 133px;
+        padding-left: 237px;
     }
 
     .title1 h2 {
-        padding-left: 137px;
+        padding-left: 267px;
     }
 
-    /* .pri_title h1 {
-        margin-left: 37%;
-    } */
-
     .pri_title h1 {
-        margin-left: 47%;
+        margin-left: 70%;
         font-size: 40px;
     }
 
@@ -250,6 +246,10 @@ p.contact-text {
 
     a.nav-link.fontSize {
         font-size: 30px;
+    }
+
+    button.navbar-toggler.menu-bar-toggle {
+        margin-right: -118px;
     }
 }
 
