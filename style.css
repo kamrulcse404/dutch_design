@@ -226,6 +226,14 @@ p.contact-text {
         width: 170px;
         height: auto;
     }
+
+    .kppn_list {
+        padding-left: 95px;
+    }
+
+    .title1 h2 {
+        padding-left: 95px;
+    }
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
