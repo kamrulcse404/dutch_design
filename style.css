@@ -247,10 +247,6 @@ p.contact-text {
     a.nav-link.fontSize {
         font-size: 30px;
     }
-
-    button.navbar-toggler.menu-bar-toggle {
-        margin-right: -118px;
-    }
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
